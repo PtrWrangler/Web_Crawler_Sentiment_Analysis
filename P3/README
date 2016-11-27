@@ -1,0 +1,11 @@
+Comp 479 Project3 - Web crawler & Sentiment Analysis
+
+todo:
+- sentiment analysis
+- setup correct folder tree structure like in urls?
+- gather test data at school
+
+
+done:
+- install scrapy
+- crawl some test data, get all links no dups
