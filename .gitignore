@@ -1,1 +1,4 @@
+.idea/
+
 www_roots/
+*.pyc

@@ -1,12 +1,42 @@
 Comp 479 Project3 - Web crawler & Sentiment Analysis
 
-todo:
+notes:
+    Answers to the questions:
+ - Which is the most `negative' department in Science? (1pt, Attrib 5)
+    A: The most negative or 'least positive' dept in in Science is the Physics department!
 
+    Is Biology more positive or less positive than Geography, Planning and Environment?
+Rank the Science departments by sentiment of their web documents (1pt, Attrib 5)
+Classify the Science departments with a three way classifier into positive, negative, and neutral (3pts, Attrib 5)
+Classify the additional mystery page results the same way and compare its dominant sentiment. (2pts, Attrib 5)
+
+what was the hardest step?
+how big is the index?
+
+what observations did you make during your experiments?
+!- wow at first i was crawling without looking at <li> tags and getting scores of 7000-8000
+    now including <li> all scores are around 1500-3000
+
+what did you learn from your experience?
+
+
+Run instructions:
+    Scraping:
+        - cd into Project/P3
+        - run: scrapy crawl base_spider
+        - (sentiment analysis runs automatically after finish)
+
+
+    Lucene Sentiment ANAL and indexing/searching:
+        -
+
+todo:
+- make sure we answer all the questions
 
 
 done:
 - install scrapy
 - crawl some test data, get all links no dups
-- sentiment analysis
-- setup correct folder tree structure like in urls?
-- gather test data at school
+- if a root folder exceeds 1MB size stop scraping for it
+- Do the mystery page
+- Sentiment analysis immidiately after crawling
